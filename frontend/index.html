@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quick Notes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>📝 Quick Notes</h1>
+
+  <input id="username" placeholder="Enter username" />
+  <button onclick="register()">Register</button>
+
+  <hr/>
+
+  <input id="title" placeholder="Note title" />
+  <textarea id="content" placeholder="Note content"></textarea>
+  <button onclick="addNote()">Add Note</button>
+
+  <hr/>
+  <button onclick="getNotes()">Load Notes</button>
+  <div id="notes"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
